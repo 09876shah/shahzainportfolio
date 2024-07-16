@@ -1,0 +1,43 @@
+.progress .skillbar span::before
+{
+    display: flex;
+    content: var(--progressbar);
+background-color: aliceblue;
+width: 40px;
+height: 40px;
+border: 3px solid orange;
+border-radius: 50%;
+position: absolute;
+right: -1px;
+top: 0;
+align-items: center;
+justify-content: center;
+text-align: center;
+margin-top: -0.7rem;
+padding: 1px;
+}
+@media (max-width:1000px){
+    .cont .abouttxt h2{
+        font-size: 2rem;
+        text-align: left;
+        
+    }
+    .cont .abouttxt p{
+         
+        text-align: left;
+        width: 20rem;
+        
+    }
+    .cont{
+        margin-top: 7rem;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .progress{
+        width: 15rem;
+    }
+
+    .aboutimg img{
+width: 100%
+    }
+}

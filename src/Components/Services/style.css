@@ -1,0 +1,17 @@
+@media (max-width:1000px){
+    .head{
+        text-align: center;
+    }
+   .head p{
+        width: 90%;
+    }
+    .services{
+        justify-content: center;
+        /* align-items: center; */
+        flex-wrap: wrap;
+    }
+    .services .service{
+        width: 40%;
+        margin: 10px;
+    } 
+}

@@ -1,0 +1,23 @@
+footer{
+    width: 100%;
+    background-color: rgb(160, 156, 156);
+}
+footer .footbar{
+
+   background-color: rgb(66, 20, 20);
+}
+@media (max-width:1000px){
+    .menus ul{
+        flex-direction: row;
+        gap: 1rem;
+    }
+    .menus ul .menu1{
+        display: flex;
+        flex-direction: column; gap: 1em;
+    }
+    .menus ul .menu2{
+        display: flex;
+        flex-direction: column;
+        gap:1em
+    }
+ }
